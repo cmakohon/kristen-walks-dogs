@@ -1,0 +1,79 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  font-family: 'Open Sans Condensed', serif;
+  font-weight: 300;
+  height: 100%; }
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; 
+  } 
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.sacramento {
+  font-family: 'Sacramento', cursive;
+}
+
+.amatic-sc {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1.sacramento {
+  font-size: 40pt;
+}
+
+.tagline {
+  font-size: 14pt;
+}
+
+.sub-head {
+  font-size: 36pt;
+}
+
+.shadow-box {
+  background: rgba(29, 35, 48, 0.7);
+  border-radius: 5px;
+  margin-left:-100%;
+    margin-right:-100%;
+}
+
+@media (min-width: 768px) {
+  h1.sacramento {
+    font-size: 72pt;
+  }
+  .tagline {
+    font-size: 22pt;
+  }
+}
