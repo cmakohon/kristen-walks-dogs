@@ -93,6 +93,11 @@ h1.sacramento {
   top: 7px;
 }
 
+#testimonials h1.sacramento {
+  font-size: 52pt;
+  font-weight: 100;
+}
+
 .shadow-box {
   background: rgba(29, 35, 48, 0.7);
   border-radius: 5px;
